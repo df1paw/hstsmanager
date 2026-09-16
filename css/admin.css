@@ -1,0 +1,20 @@
+#hsts .hsts-field {
+	margin-bottom: 12px;
+}
+
+#hsts .hsts-warning {
+	color: var(--color-warning, #a05a00);
+}
+
+#hsts .hsts-status {
+	min-height: 1.2em;
+	font-weight: bold;
+}
+
+#hsts .hsts-status--success {
+	color: var(--color-success, #2d7a2d);
+}
+
+#hsts .hsts-status--error {
+	color: var(--color-error, #c53030);
+}

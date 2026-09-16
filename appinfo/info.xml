@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+   <id>hstsmanager</id>
+   <name>HSTS Manager</name>
+   <summary>Add a configurable HSTS header to HTTPS response</summary>
+   <description>Add HSTS (HTTP Strict Transport Security) header to HTTPS response, if modheaders is not available. Configurable via config.php or the admin settings GUI.
+
+This is a fork of "HSTS Header" by Klaus Herberth (sualko), now maintained by Andreas Weller (DF1PAW).</description>
+   <version>0.11.0</version>
+   <licence>agpl</licence>
+   <author mail="weller@andreas-weller.de">Andreas Weller, DF1PAW</author>
+   <author mail="klaus@jsxc.org" homepage="https://github.com/sualko/cloud_hsts">Klaus Herberth (original author)</author>
+   <namespace>HstsManager</namespace>
+
+   <types>
+     <prelogin/>
+   </types>
+
+   <category>tools</category>
+
+   <website>https://github.com/df1paw/cloud_hsts/</website>
+   <bugs>https://github.com/df1paw/cloud_hsts/issues</bugs>
+
+   <screenshot>https://raw.githubusercontent.com/df1paw/cloud_hsts/master/img/screenshot.png</screenshot>
+
+   <dependencies>
+     <nextcloud min-version="20" max-version="34"/>
+   </dependencies>
+
+   <settings>
+     <admin>OCA\HstsManager\Settings\Admin</admin>
+   </settings>
+</info>
