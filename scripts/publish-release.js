@@ -94,7 +94,7 @@ async function generateChangelog() {
 
 	function stringifyEntry(entry) {
 		const issues = entry.issues.map(issue => {
-			return `[#${issue}](https://github.com/df1paw/cloud_hsts/issues/${issue})`;
+			return `[#${issue}](https://github.com/df1paw/hstsmanager/issues/${issue})`;
 		}).join('');
 
 		return `- ${issues}${issues.length > 0 ? ' ' : ''}${entry.description}\n`;
@@ -210,7 +210,7 @@ async function createGithubRelease(changeLog) {
 
 	const octokit = new Octokit({
 		auth: process.env.GITHUB_TOKEN,
-		userAgent: 'custom releaser for df1paw/cloud_hsts',
+		userAgent: 'custom releaser for df1paw/hstsmanager',
 	});
 
 	const origin = (await git.remote(['get-url', 'origin'])).trim();

@@ -1,8 +1,8 @@
 # HSTS Manager
 
-![GitHub release](https://img.shields.io/github/v/release/df1paw/cloud_hsts)
-![GitHub All Releases](https://img.shields.io/github/downloads/df1paw/cloud_hsts/total.svg)
-[![GitHub license](https://img.shields.io/github/license/df1paw/cloud_hsts.svg)](https://github.com/df1paw/cloud_hsts/blob/master/LICENSE)
+![GitHub release](https://img.shields.io/github/v/release/df1paw/hstsmanager)
+![GitHub All Releases](https://img.shields.io/github/downloads/df1paw/hstsmanager/total.svg)
+[![GitHub license](https://img.shields.io/github/license/df1paw/hstsmanager.svg)](https://github.com/df1paw/hstsmanager/blob/master/LICENSE)
 
 Adds the [Strict-Transport-Security] (HSTS) header to [Nextcloud] responses,
 for installations that cannot set it via the web server configuration itself
@@ -71,11 +71,11 @@ still lock the configuration down at the file level.
 ## Contributing / Issues
 
 Bug reports and pull requests are welcome at
-[github.com/df1paw/cloud_hsts](https://github.com/df1paw/cloud_hsts).
+[github.com/df1paw/hstsmanager](https://github.com/df1paw/hstsmanager).
 
 ## License
 
-AGPL-3.0, see [LICENSE](https://github.com/df1paw/cloud_hsts/blob/master/LICENSE).
+AGPL-3.0, see [LICENSE](https://github.com/df1paw/hstsmanager/blob/master/LICENSE).
 
 [Nextcloud]: https://nextcloud.com
 [Strict-Transport-Security]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
